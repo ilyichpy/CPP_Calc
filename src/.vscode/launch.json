@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ilazuev/Desktop/CPP3_SmartCalc_v2.0-1/src/calc2_0",
+      "program": "/Users/ilazuev/Desktop/CPP3_SmartCalc_v2.0-1/src/calc2_0/build/Debug/outDebug"
+    }
+  ]
+}
