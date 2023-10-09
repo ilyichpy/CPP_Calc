@@ -79,14 +79,16 @@ int s21::PolishNotation::get_operator(std::string str, size_t &i) {
   int is_low = str[i] == ADD || str[i] == SUB;  //!< low priority
   int is_mid = str[i] == MUL || str[i] == DIV;
   int is_heigh = str[i] == DEG;
-  int ch = 0, MAX_OPERATOR_LEN = 3;
+  int ch = 0, MAX_OPERATOR_LEN = 4;
   if (is_low || is_mid || is_heigh) ch = str[i];
-  if (ch == 0 && i + MAX_OPERATOR_LEN < len) {
+  if (ch == 0 && i + MAX_OPERATOR_LEN - 1 < len) {
     if (str[i] == 'm' && str[i + 1] == 'o' && str[i + 2] == 'd') {
       ch = MOD;
       i += 2;
     }
-    if (ch == 0) ch = get_func_operator(str, i);
+  }
+  if (ch == 0 && i + MAX_OPERATOR_LEN < len) {
+    ch = get_func_operator(str, i);
   }
   return ch;
 }
