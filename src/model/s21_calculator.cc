@@ -138,9 +138,9 @@ s21::Status s21::Calculator::calculate_double(std::stack<double> &st,
     double num_first = st.top();
     st.pop();
 
-    if (num_second == 0. && operation == DIV)
+    if (num_second == 0.0 && operation == DIV)
       status = DIVISION_BY_ZERO;
-    else if ((num_second < 0. || num_first == 0.) && operation == DEG)
+    else if (num_second < 0.0 && operation == DEG)
       status = ERROR;
     else if (num_first < 0 && operation == DEG && status == OK)
       res = switch_arithmetic(num_first, (int)num_second, operation);
