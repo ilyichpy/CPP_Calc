@@ -30,11 +30,12 @@ After this my program will install to your desktop
 
 1. Calculate any equation (sqrt(25) * 10.5)
 
-![](pics/first_sample_out.gif)
+<img src="pics/first_sample_out.gif" width="200" height="210"/>
 
 2. Calculate graph (tan(x))
 
-![](pics/SecondSample_out.gif)
+<img src="pics/SecondSample_out.gif" width="350" height="210"/>
+
 
 ## Contributing
 
