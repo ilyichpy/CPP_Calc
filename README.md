@@ -1,10 +1,10 @@
 # table of contents
 
 
-### 1. [About](#CPP_Calc)
-### 2. [Installation](#installation)
-### 3. [Samples](#sample-of-usage)
-### 4. [Contributing](#contributing)
+1. [About](#CPP_Calc)
+2. [Installation](#installation)
+3. [Samples](#sample-of-usage)
+4. [Contributing](#contributing)
 
 
 # CPP_Calc
