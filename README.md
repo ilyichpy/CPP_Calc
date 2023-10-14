@@ -1,4 +1,4 @@
-# table of contents
+# Table of contents
 
 
 1. [About](#CPP_Calc)
