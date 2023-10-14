@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ilazuev/Desktop/CPP_Calc/src/model",
+      "program": "/Users/ilazuev/Desktop/CPP_Calc/src/model/build/Debug/outDebug"
+    }
+  ]
+}
